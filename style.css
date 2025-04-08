@@ -1,0 +1,128 @@
+
+body {
+    background-color: Grey 500: hsl(234, 12%, 34%)
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5%;
+    justify-self: center;
+    /* justify-self: center; */
+}
+
+@media (min-width 375px) and (max-width 1440px) 
+    body {
+        width: 100px;
+    }
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 200;
+    margin: 0%;
+    padding: 0%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-style: bold;
+    margin: 0%;
+    padding: 0%;
+}
+
+.our {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 200px 200px;
+    font-size: 15px;
+    /* justify-self: center; */
+    margin-top: 5%;
+
+}
+
+
+
+.calculator {
+    /* margin-top: 50%; */
+    text-align: left;
+    border-top: 5px solid;
+    height: 175px;
+    border-color: hsl(212, 86%, 64%);
+    box-shadow: 0px 2px 5px hsl(212, 6%, 44%);
+    border-radius: 5px;
+    padding: 10px;
+    justify-self: left;
+    margin-top: 25%;
+    row-gap: 20px;
+}
+
+.supervisor {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    margin-top: 25%;
+    height: 175px;
+    /* margin-left: 25%; */
+    font-style: bold;
+    text-align: left;
+    border-top: 5px solid;
+    border-color:hsl(180, 62%, 55%);
+    box-shadow: 0px 2px 5px hsl(212, 6%, 44%);
+    border-radius: 5px;
+    justify-self: right;
+}
+
+.team {
+    /* margin-top: 25%; */
+    font-style: bold;
+    text-align: left;
+    border-top: solid 5px;
+    border-color: hsl(0, 78%, 62%);
+    justify-self: center;
+    box-shadow: 0px 2px 5px hsl(212, 6%, 44%);
+    border-radius: 5px;
+    padding: 10px
+}
+
+.karma {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-style: bold;
+    font-size: 15px;
+    text-align: left;
+    height: 175px;
+    border-top: 5px solid;
+    border-color: hsl(34, 97%, 64%);
+    box-shadow: 0px 2px 5px hsl(212, 6%, 44%);
+    border-radius: 5px;
+    margin: 30px;
+    padding: 10px;
+    justify-self: center;
+}
+
+
+
+img {
+    float: right;
+    align-self: flex-end;
+    padding-right: 20px;
+}
+
+p {
+    font-weight: 200;
+}
+
+
+    
+
